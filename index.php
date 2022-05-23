@@ -41,7 +41,7 @@
                             Author Name
                         </p>
                     </a>
-                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                    <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
                             Cost: 9000000 
                         </p>
@@ -82,7 +82,7 @@
                             Author Name
                         </p>
                     </a>
-                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                    <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
                             Cost: 9000000 
                         </p>
@@ -123,7 +123,7 @@
                             Author Name
                         </p>
                     </a>
-                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                    <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
                             Cost: 9000000 
                         </p>
@@ -164,7 +164,7 @@
                             Author Name
                         </p>
                     </a>
-                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                    <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
                             Cost: 9000000 
                         </p>
@@ -205,7 +205,7 @@
                             Author Name
                         </p>
                     </a>
-                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                    <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
                             Cost: 9000000 
                         </p>
@@ -246,7 +246,7 @@
                             Author Name
                         </p>
                     </a>
-                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                    <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
                             Cost: 9000000 
                         </p>
