@@ -34,16 +34,17 @@
                     </p>
                 </header>
 
-                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                <footer class="flex items-center justify-between w-full leading-none p-2 md:p-4">
                     <a class="flex items-center no-underline hover:underline text-black" href="#">
                         <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
                         <p class="ml-2 text-sm">
                             Author Name
                         </p>
                     </a>
-                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                        <span class="hidden">Like</span>
-                        <i class="fa fa-heart"></i>
+                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                        <p class="ml-2 text-sm">
+                            Cost: 9000000 
+                        </p>
                     </a>
                 </footer>
 
@@ -81,9 +82,10 @@
                             Author Name
                         </p>
                     </a>
-                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                        <span class="hidden">Like</span>
-                        <i class="fa fa-heart"></i>
+                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                        <p class="ml-2 text-sm">
+                            Cost: 9000000 
+                        </p>
                     </a>
                 </footer>
 
@@ -121,9 +123,10 @@
                             Author Name
                         </p>
                     </a>
-                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                        <span class="hidden">Like</span>
-                        <i class="fa fa-heart"></i>
+                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                        <p class="ml-2 text-sm">
+                            Cost: 9000000 
+                        </p>
                     </a>
                 </footer>
 
@@ -161,9 +164,10 @@
                             Author Name
                         </p>
                     </a>
-                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                        <span class="hidden">Like</span>
-                        <i class="fa fa-heart"></i>
+                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                        <p class="ml-2 text-sm">
+                            Cost: 9000000 
+                        </p>
                     </a>
                 </footer>
 
@@ -201,9 +205,10 @@
                             Author Name
                         </p>
                     </a>
-                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                        <span class="hidden">Like</span>
-                        <i class="fa fa-heart"></i>
+                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                        <p class="ml-2 text-sm">
+                            Cost: 9000000 
+                        </p>
                     </a>
                 </footer>
 
@@ -241,9 +246,10 @@
                             Author Name
                         </p>
                     </a>
-                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                        <span class="hidden">Like</span>
-                        <i class="fa fa-heart"></i>
+                    <a class="flex items-center flex-end no-underline hover:underline text-black" href="#">
+                        <p class="ml-2 text-sm">
+                            Cost: 9000000 
+                        </p>
                     </a>
                 </footer>
 
