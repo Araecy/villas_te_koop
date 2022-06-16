@@ -35,7 +35,7 @@
         <li><a href='http://'>Services 3</a></li>
       </ul>
     </li>
-    <li><a href='http://'>Contact Us</a></li>
+    <li><a href='aboutus.php'>About Us</a></li>
   </ul>
 </nav>
 
