@@ -1,0 +1,68 @@
+// Note to other developers: Use the following strucute ID > element > etc...
+// 
+// div[id="wrapper-aboutus-image > img {atribute: var/value;}
+
+#custom-shape-divider-top-1655381010 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-top: 20vh;
+  }
+#grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #img1,#img2 {
+    padding-right: 5vw;
+  }
+
+  #img1 {
+    width: 26vw;
+  }
+
+  #img2 {
+    width: 20vw;
+  }
+// 
+  #tekst {
+    font-size: medium;
+  }
+  
+  #img-template-villa-box {
+    width: 45vw;
+    height: 40vh;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 5vw;
+    display: inline-block;
+}
+
+#bieden {
+  border: 1px solid black;
+  width: 20vw;
+  height: 40vh;
+  float: right;
+  margin-right: 15vw;
+  margin-top: 20vh;
+  background-color: #23282F;
+  color: white;
+}
+#beschrijving_villa {
+    margin-left: 5vw;
+}
+
+#beschrijving_villa_vol {
+    width: 45vw;
+}
