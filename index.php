@@ -14,7 +14,6 @@
 <body>
 
 <!-- nav -->
-
 <nav id='menu'>
   <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
   <ul>
