@@ -1,3 +1,112 @@
 // Note to other developers: Use the following strucute ID > element > etc...
-// Import only index.min.css in your php file.
+// 
 // div[id="wrapper-aboutus-image > img {atribute: var/value;}
+
+#custom-shape-divider-top-1655381010 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-top: 20vh;
+  }
+#grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #img1,#img2 {
+    padding-right: 5vw;
+  }
+
+  #img1 {
+    width: 26vw;
+  }
+
+  #img2 {
+    width: 20vw;
+  }
+// 
+  #tekst {
+    font-size: medium;
+  }
+
+  #img-template-villa-box {
+    width: 45vw;
+    height: 40vh;
+    margin-top: 50px;
+    margin-left: 5vw;
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.375);
+    border-radius: 25px;
+    box-shadow: 1px black;
+
+}
+
+#img-template-villa {
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+
+
+#bieden {
+  border: 1px solid black;
+  width: 20vw;
+  height: 40vh;
+  float: right;
+  margin-right: 15vw;
+  margin-top: 20vh;
+  background-color: #23282F;
+  color: white;
+  display: inline-block;
+}
+#beschrijving_villa {
+    margin-left: 5vw;
+}
+
+#beschrijving_villa_vol {
+    width: 45vw;
+}
+
+#bieden_prijslijst {
+    height: 34vh;
+    border-bottom: white 1px solid;
+}
+
+#bieden_input {
+    color: black;
+    width: 100%;
+    height: 5vh;
+    border-right: white 1px solid;  
+      margin-bottom: 10px;
+}
+
+#bieden_input_number {
+    width: 100%;
+    height: 100%;
+
+}
+
+#knop_bieden {
+    width: 10vw;
+    background-color: #23282F;
+    height: 5vh;
+    float: right;
+    margin-top: 2vh;
+    display: inline-block;
+    margin-right: 5vw;
+    text-align: center;
+}
