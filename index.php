@@ -14,10 +14,12 @@
 <body>
 
 <!-- nav -->
+
 <nav id='menu'>
   <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
   <ul>
     <li><a href='http://'>Home</a></li>
+<<<<<<< HEAD
     <li><a class='dropdown-arrow' href='http://'>Villa's</a>
       <ul class='sub-menus'>
         <li><a href='./baambrugse.php'>villa 1</a></li>
@@ -26,19 +28,17 @@
       </ul>
     </li>
     <li><a href='./aboutus.php'>About Us</a></li>
+=======
+    <li><a href='http://'>About</a></li>
+    <li><a href='http://'>Contact Us</a></li>
+>>>>>>> 53f1fbac1d90050ca81c0c9b8ca83fcd2f56ffc1
   </ul>
 </nav>
 
-<!-- wave -->
-<div class="custom-shape-divider-top-1653318248">
-
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-    </svg>
-</div>
+<!-- <hr class="m-1"> -->
 
 
-<div class="container my-12 mx-auto px-4 md:px-12">
+<div class="container my-12 mx-auto px-4 md:px-12 ">
     <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
         <!-- Column -->
