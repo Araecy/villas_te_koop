@@ -15,11 +15,9 @@
     <div id="flex-box"><img src="./img/minervalaan2.jpg" alt=""><img src="/img/minervalaan3.jpg" alt="" srcset=""> <img src="./img/minervalaan4.jpg" alt=""></div>
 
     <div id="bieden">
-        <div id="bieden_prijslijst"></div>
-        <div id="bieden_input"><input id="bieden_input_number" type="number"></div>
-        <a href="">
-            <div id="knop_bieden">Bieden</div>
-        </a>
+        <input id="currency" type='currency' value="" placeholder='Type a number & click outside' />
+        <button onclick="addBiddingItem()">place bid</button>
+        <div id="bidding-container"></div>
     </div>
 
     <hr>
