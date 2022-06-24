@@ -37,13 +37,13 @@
             <article class="overflow-hidden rounded-lg shadow-lg">
 
                 <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?rando">
+                    <img alt="Placeholder" class="block h-auto w-full" src="./img/eeuwigelaan1.jpg">
                 </a>
 
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href="./bidtest.php">
-                            Villa Title
+                        <a class="no-underline hover:underline text-black" href="#">
+                        Eeuwigelaan 49
                         </a>
                     </h1>
                 
@@ -52,7 +52,7 @@
                 <footer class="flex items-center justify-between w-full leading-none p-2 md:p-4">
                     <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
-                            Cost: 9000000 
+                        € 5,750,000 k.k.
                         </p>
                     </a>
                 </footer>
@@ -76,22 +76,17 @@
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 class="text-lg">
                         <a class="no-underline hover:underline text-black" href="#">
-                            
+                        Palestrinalaan 11
                         </a>
                     </h1>
 
                 </header>
 
                 <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a class="flex items-center no-underline hover:underline text-black" href="#">
-                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                        <p class="ml-2 text-sm">
-                            Author Name
-                        </p>
-                    </a>
+                   
                     <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
-                            Cost: 9000000 
+                        € 5,875,000 k.k.
                         </p>
                     </a>
                 </footer>
@@ -108,8 +103,8 @@
             <!-- Article -->
             <article class="overflow-hidden rounded-lg shadow-lg">
 
-                <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="./hazelaan.php">
+                <a href="./hazelaan.php">
+                    <img alt="Placeholder" class="block h-auto w-full" src="./img/hazelaan1.jpg">
                 </a>
 
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -140,7 +135,7 @@
             <!-- Article -->
             <article class="overflow-hidden rounded-lg shadow-lg">
 
-                <a href="#">
+                <a href="./buurtweg.php">
                     <img alt="Placeholder" class="block h-auto w-full" src="./img/buurtweg1.jpg">
                 </a>
 
@@ -154,7 +149,7 @@
 
                 <footer class="flex items-center justify-between leading-none p-2 md:p-4">
              
-                    <a class="flex items-center flex-end no-underline text-black" href="#">
+                    <a class="flex items-center flex-end no-underline text-black" href="./buurtweg.php">
                         <p class="ml-2 text-sm">
                         € 7,350,000 k.k.
                         </p>
@@ -179,7 +174,7 @@
 
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href="#">
+                        <a class="no-underline hover:underline text-black" href="./minervalaan.php">
                         Minervalaan 116
                         </a>
                     </h1>
@@ -188,7 +183,7 @@
 
                 <footer class="flex items-center justify-between leading-none p-2 md:p-4">
         
-                    <a class="flex items-center flex-end no-underline text-black" href="#">
+                    <a class="flex items-center flex-end no-underline text-black" href="./minervalaan.php">
                         <p class="ml-2 text-sm">
                         € 5,250,000 k.k
                         </p>
@@ -208,7 +203,7 @@
             <article class="overflow-hidden rounded-lg shadow-lg">
 
                 <a href="./baambrugse.php">
-                    <img alt="Placeholder" class="block h-auto w-full" src="./baambrugse.php">
+                    <img alt="Placeholder" class="block h-auto w-full" src="./img/baambrugse1.jpg">
                 </a>
 
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
@@ -221,7 +216,7 @@
                 </header>
 
                 <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a class="flex items-center flex-end no-underline text-black" href="#">
+                    <a class="flex items-center flex-end no-underline text-black" href="./baambrugse.php">
                         <p class="ml-2 text-sm">
                         € 2,495,000 k.k.
                         </p>
