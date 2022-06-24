@@ -1,7 +1,7 @@
-unSorted = [];
+// bidsArray associative array to store biddingitems in
+bidsArray = [];
 
-// input only money
-
+// currency input field, auto format on exit (blur), euro in us format. e.g. 20,000.00
 var currencyInput = document.querySelector('input[id="currency"]');
 var currency = "EUR"; // https://www.currency-iso.org/dam/downloads/lists/list_one.xml
 
@@ -18,7 +18,7 @@ function localStringToNumber(s) {
 
 function onFocus(e) {
   var value = e.target.value;
-  e.target.value = value ? localStringToNumber(value) : "";
+  e.target.value = value ? localStringToNumber(value) : ""; 
 }
 
 function onBlur(e) {
@@ -30,54 +30,41 @@ function onBlur(e) {
     style: "currency",
     currencyDisplay: "symbol",
   };
-
   e.target.value =
     value || value === 0
       ? localStringToNumber(value).toLocaleString(undefined, options)
       : "";
 }
 
-// bidding system
-
-// function to sort unSorted by highest price to lowest price and after that edit it into the dom with id "bidding-container
-
-function sortBidding() {
-    // const studios = [{"name":"Whole Yoga","price":"$17.00"},{"name":"Rino Yoga Social","price":"Suggested Donation"},{"name":"Samadhi Yoga","price":"$20.00"},{"name":"Corepower Yoga","price":"$25.00"},{"name":"The River Yoga","price":"$20.00"},{"name":"Endorphin Yoga","price":"$10.00"},{"name":"Kindness Yoga","price":"$20.00"},{"name":"Yoga High","price":"$15.00"},{"name":"Freyja Project","price":"$22.00"},{"name":"Kula Yoga","price":"$17.00"}];
-
-    const parsePrice = x => parseFloat(x.replace(/(^\$)|(^€|,)/, '.')) || 0;
-
-    let sorted = unSorted.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
-    console.log(unSorted);
-
-
-    console.log('sorted: ', unSorted);
-
-    //edit unSorted into the dom with id "bidding-container"
-    var biddingContainer = document.getElementById("bidding-container");
-    biddingContainer.innerHTML = "";
-    for (var i = 0; i < unSorted.length; i++) {
-        var biddingItem = document.createElement("div");
-        biddingItem.className = "bidding-item";
-        biddingItem.innerHTML =
-            "<span class='bidding-item-price'>" +
-            unSorted[i].price
-            // "</span><span class='bidding-item-name'>" +
-            // unSorted[i].name +
-            // "</span>";
-        biddingContainer.appendChild(biddingItem);
-    }
+// creates a list of the bidsArray in descending order. 
+function createList() {
+  //edit bidsArray into the dom with id "bidding-container"
+  var biddingContainer = document.getElementById("bidding-container");
+  biddingContainer.innerHTML = "";
+  for (var i = 0; i < bidsArray.length; i++) {
+    var biddingItem = document.createElement("div");
+    biddingItem.className = "bidding-item";
+    biddingItem.innerHTML =
+        "<span class='bidding-item-price'>" +
+        bidsArray[i].price
+    biddingContainer.appendChild(biddingItem);
+  }
 }
 
+// function to add new bidding item to the bidsArray
+function addBiddingItem() {
+  value = localStringToNumber(currencyInput.value);
+  price = currencyInput.value;
 
-// function to add new bidding item to the unSorted
-function addBiddingItem(price) {
-  // const parsePrice = x => parseFloat(x.replace(/^\$/, '')) || 0;
-    price = currencyInput.value;
-    var biddingItem = {
-        name: name,
-        price: price,
-    };
-    unSorted.push(biddingItem);
-    sortBidding();
+  console.log('bidsArray sorted in descending order: ', bidsArray); // purely here for demonstational purpose
+  // associative array, this is used in the sorting and displaying of the price.
+  var biddingItem = {
+    priceValue: value,
+    price: price,
+  };
+
+  bidsArray.push(biddingItem);
+  // sorts the price in descending order
+  bidsArray.sort((a, b) => (b.priceValue) - (a.priceValue));
+  createList();
 }
-
