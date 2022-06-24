@@ -26,10 +26,10 @@
 
     <div id="beschrijving_villa">
         <h1 id="titel_villa" style="color: white;">Buurtweg 87 2244 AB Wassenaar</h1><br>
-        <h2 style="color: white;">€ 7,350,000 k.k..</h2>
-        <p id="beschrijving_villa_vol" style="color: white;">This beautiful, modern villa of allure is situated on a sloping, spacious plot with unobstructed views on the Meijendel dune and nature reserve. This villa was built and furnished in 2007 using the highest quality materials. Luxurious, tasteful and timeless. A wonderfully comfortable family home, but above all a great place to receive and entertain your guests. 
-This elegant detached villa with two double garages and a guesthouse has a beautifully landscaped and private sunny garden and various sun terraces. 
-Centrally located to primary and secondary schools in Wassenaar and The Hague, various sports clubs, the roads to Amsterdam, The Hague and Rotterdam and the dunes.  </p>
+        <h2 style="color: white;">€ 7,350,000 k.k.</h2>
+        <p id="beschrijving_villa_vol" style="color: white;">This beautiful, modern villa of allure is situated on a sloping, spacious plot with unobstructed views on the Meijendel dune and nature reserve. This villa was built and furnished in 2007 using the highest quality materials. Luxurious, tasteful and timeless. A wonderfully comfortable family home, but above all a great place to receive and entertain your guests.
+            This elegant detached villa with two double garages and a guesthouse has a beautifully landscaped and private sunny garden and various sun terraces.
+            Centrally located to primary and secondary schools in Wassenaar and The Hague, various sports clubs, the roads to Amsterdam, The Hague and Rotterdam and the dunes. </p>
     </div>
 </body>
 
