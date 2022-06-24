@@ -13,6 +13,10 @@
 
 <body>
 
+
+
+
+
 <!-- nav -->
 
 <nav id='menu'>
@@ -25,7 +29,9 @@
 </nav>
 
 <!-- <hr class="m-1"> -->
-
+<div id="banner">
+  <img src="./img/villa-menari-promo-banner (1).jpg" />
+</div>
 
 <div class="container my-12 mx-auto px-4 md:px-12 ">
     <div class="flex flex-wrap -mx-1 lg:-mx-4">
