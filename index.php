@@ -19,19 +19,8 @@
   <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
   <ul>
     <li><a href='http://'>Home</a></li>
-<<<<<<< HEAD
-    <li><a class='dropdown-arrow' href='http://'>Villa's</a>
-      <ul class='sub-menus'>
-        <li><a href='./baambrugse.php'>villa 1</a></li>
-        <li><a href='./buurtweg.php'>villa 2</a></li>
-        <li><a href='./minervalaan.php'>villa 3</a></li>
-      </ul>
-    </li>
-    <li><a href='./aboutus.php'>About Us</a></li>
-=======
     <li><a href='http://'>About</a></li>
     <li><a href='http://'>Contact Us</a></li>
->>>>>>> 53f1fbac1d90050ca81c0c9b8ca83fcd2f56ffc1
   </ul>
 </nav>
 
@@ -47,56 +36,31 @@
             <!-- Article -->
             <article class="overflow-hidden rounded-lg shadow-lg">
 
-                <a href="./baambrugse.php">
-                    <img alt="Placeholder" class="block h-auto w-full" src="./img/baambrugse1.jpg">
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
                 </a>
 
-                <header class="flex items-center justify-betweeny leading-tight p-2 md:p-4">
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href="./baambrugse.php">
-                        Baambrugse Zuwe 163 b
+                        <a class="no-underline hover:underline text-black" href="./bidtest.php">
+                            Villa Title
                         </a>
                     </h1>
-            
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
                 </header>
 
                 <footer class="flex items-center justify-between w-full leading-none p-2 md:p-4">
-                    <a class="flex items-center flex-end no-underline text-black" href="./baambrugse.php">
+                    <a class="flex items-center no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
                         <p class="ml-2 text-sm">
-                        € 2,495,000 k.k.
+                            Author Name
                         </p>
                     </a>
-                </footer>
-
-            </article>
-            <!-- END Article -->
-
-        </div>
-        <!-- END Column -->
-
-        <!-- Column -->
-        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-
-                <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="./img/buurtweg1.jpg">
-                </a>
-
-                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                    <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href="#">
-                        Buurtweg 87 2244 AB Wassenaar
-                        </a>
-                    </h1>
-                  
-                </header>
-
-                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
                     <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
-                            € 7,350,000 k.k.
+                            Cost: 9000000 
                         </p>
                     </a>
                 </footer>
@@ -114,25 +78,30 @@
             <article class="overflow-hidden rounded-lg shadow-lg">
 
                 <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="./img/minervalaan1.jpg">
+                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
                 </a>
 
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 class="text-lg">
                         <a class="no-underline hover:underline text-black" href="#">
-                        Minervalaan 116 1077 PM Amsterdam
+                            Villa Title
                         </a>
                     </h1>
-        
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
                 </header>
 
                 <footer class="flex items-center justify-between leading-none p-2 md:p-4">
                     <a class="flex items-center no-underline hover:underline text-black" href="#">
-            
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                        <p class="ml-2 text-sm">
+                            Author Name
+                        </p>
                     </a>
                     <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
-                        € 5,250,000 k.k
+                            Cost: 9000000 
                         </p>
                     </a>
                 </footer>
@@ -150,21 +119,30 @@
             <article class="overflow-hidden rounded-lg shadow-lg">
 
                 <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="./img/palestrinalaan1.jpg">
+                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
                 </a>
 
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 class="text-lg">
                         <a class="no-underline hover:underline text-black" href="#">
-                        Palestrinalaan 11 1217 CD Hilversum
+                            Villa Title
                         </a>
                     </h1>
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
                 </header>
 
                 <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                    <a class="flex items-center no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                        <p class="ml-2 text-sm">
+                            Author Name
+                        </p>
+                    </a>
                     <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
-                        € 5.875.000 k.k.
+                            Cost: 9000000 
                         </p>
                     </a>
                 </footer>
@@ -182,23 +160,30 @@
             <article class="overflow-hidden rounded-lg shadow-lg">
 
                 <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="./img/eeuwigelaan1.jpg">
+                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
                 </a>
 
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 class="text-lg">
                         <a class="no-underline hover:underline text-black" href="#">
-                        Eeuwigelaan 49 1861 CL Bergen (NH) 
+                            Villa Title
                         </a>
                     </h1>
-             
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
                 </header>
 
                 <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-
+                    <a class="flex items-center no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                        <p class="ml-2 text-sm">
+                            Author Name
+                        </p>
+                    </a>
                     <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
-                        € 5.750.000 k.k.
+                            Cost: 9000000 
                         </p>
                     </a>
                 </footer>
@@ -216,24 +201,71 @@
             <article class="overflow-hidden rounded-lg shadow-lg">
 
                 <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="./img/hazelaan1.jpg">
+                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
                 </a>
 
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 class="text-lg">
                         <a class="no-underline hover:underline text-black" href="#">
-                        Hazelaan 8 2243 EJ Wassenaar
+                            Villa Title
                         </a>
                     </h1>
-                 
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
                 </header>
 
                 <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                   
+                    <a class="flex items-center no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                        <p class="ml-2 text-sm">
+                            Author Name
+                        </p>
+                    </a>
                     <a class="flex items-center flex-end no-underline text-black" href="#">
                         <p class="ml-2 text-sm">
-                        € 6.450.000 k.k.
+                            Cost: 9000000 
+                        </p>
+                    </a>
+                </footer>
 
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-black" href="#">
+                            Villa Title
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
+                </header>
+
+                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                    <a class="flex items-center no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                        <p class="ml-2 text-sm">
+                            Author Name
+                        </p>
+                    </a>
+                    <a class="flex items-center flex-end no-underline text-black" href="#">
+                        <p class="ml-2 text-sm">
+                            Cost: 9000000 
                         </p>
                     </a>
                 </footer>
