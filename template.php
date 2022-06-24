@@ -14,9 +14,9 @@
     <div id="img-template-villa-box"><img src="https://www.myistria.com/UserDocsImages/app/objekti/795/slika_hd/19082020034916_Villas-near-Rovinj-Villa-Prestige-2.jpg?preset=carousel-1-webp" id="img-template-villa"></div>
 
     <div id="bieden">
-        <div id="bieden_prijslijst"></div>
-        <div id="bieden_input"><input id="bieden_input_number" type="number"></div>
-        <a href=""><div id="knop_bieden">Bieden</div></a>
+      <input id="currency" type='currency' value="" placeholder='Type a number & click outside' />
+      <button onclick="addBiddingItem()">place bid</button>
+      <div id="bidding-container"></div>
     </div>
 
     <div id="beschrijving_villa">
